@@ -1,0 +1,283 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxygen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit&family=Roboto+Slab:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit&family=Roboto+Mono:ital,wght@1,100&family=Roboto+Slab:wght@300&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #E5E4E2; 
+    width: 100%;
+    height: 100vh;
+    flex-direction: column;
+
+}
+
+.navbar {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items:center;
+}
+
+.logo {
+        font-size: 3rem;
+        font-weight: bold;
+        text-transform: uppercase;
+        letter-spacing: 4px;
+        margin: 1rem;
+        margin-right: 100px;
+}
+
+a {
+      text-decoration: none;
+            color: #ec712a;
+            font-family: 'Oxygen', sans-serif;
+}
+  
+.container-1{
+    padding: 10px;
+    align-items: center;
+    flex-direction: column;
+}
+.container-1 div{
+    padding: 10px;
+    width: 70%; 
+    padding-left: 180px;
+}
+
+.box-1{
+    flex:1 ;
+}
+.box-1 h2{
+    color: #15317e;
+    font-family:'Roboto Slab', serif ;
+    font-size: 2rem;
+}
+.box-1 p{
+    font-family: 'Roboto Slab', serif;
+    font-size: 20px;
+    color: black;
+    letter-spacing: 2px;
+    padding-left: 50px;
+}
+.container-2{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+
+}
+.image{
+    background-image: url(3dprints.jpg);
+    background-size: cover;
+    width: 500px;
+    height: 500px;
+}
+.box-2{
+    flex: 1;
+
+}
+.box-2 p{
+    font-family: 'Roboto Slab', serif;
+    font-size: 20px;
+    color: black;
+    letter-spacing: 2px;
+    padding-left: 50px;
+}
+.box-2 h2{
+    color: #15317e;
+    font-family:'Roboto Slab', serif ;
+    font-size: 2rem;
+}
+.box-3 p{
+    font-family: 'Roboto Slab', serif;
+    font-size: 20px;
+    color: black;
+    letter-spacing: 2px;
+    padding-left: 50px;
+}
+
+.box-3{
+    flex: 1;
+}
+.box-3 h1{
+    color: #15317e;
+    font-family:'Roboto Slab', serif ;
+    font-size: 2rem;
+}
+
+.title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.title h1{
+    font-size: 3rem;
+    color: #ec712a;
+    letter-spacing: 4px;
+    font-family: 'Outfit', sans-serif;
+    margin-bottom: 1px;
+}
+.formpage{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.formpage1{
+    padding:  40px 30px; 
+    background:  #fefefe; 
+    display:  flex; 
+    flex-direction:  column;
+    align-items:  flex-start; 
+    padding-bottom:  20px;
+    padding-right: 300px; 
+    width:  500px;
+    height: 800px;
+    border-radius: 5px;
+}
+input {
+    font-size:  16px; 
+    padding:  20px 0px; 
+    height:  56px; 
+    border:  none; 
+    border-bottom:  solid 1px rgba(0,0,0,.1); 
+    background:  #fff; 
+    width:  280px; 
+    box-sizing:  border-box; 
+    transition:  all .3s linear; 
+    color:  #000; 
+    font-weight:  400;
+    -webkit-appearance:  none; 
+}
+    input:focus {
+      border-bottom:  solid 1px black; 
+      outline: 0; 
+      box-shadow:  0 2px 6px -8px rgba(0, .45);
+    }
+  
+  .floating-label {
+    position:  relative; 
+    margin-bottom:  10px;
+    width:  100%; 
+  }
+    label {
+      position:  absolute; 
+      top: calc(50% - 7px);
+      left:  0; 
+      opacity:  0; 
+      transition:  all .3s ease; 
+      padding-left:  44px; 
+    }
+    input {
+      width:  calc(100% - 44px); 
+      margin-left:  auto;
+      display:  flex; 
+    }
+.formpage1 h2{
+    font-size: 25px;
+    color: #15317e;
+    font-family: 'Outfit', sans-serif;
+}
+.output{
+    border-radius: 10px;
+    box-shadow: 4px 4px 28px 12px rgba(34,34,36,0.72);
+    -webkit-box-shadow: 4px 4px 28px 12px rgba(34,34,36,0.72);
+    -moz-box-shadow: 4px 4px 28px 12px rgba(34,34,36,0.72);
+   text-align: center;
+   font-size: 2rem;
+}
+.formpage1 h1{
+    color: #000;
+    font-size: 35px;
+}
+span {
+    margin-left: 3px;
+    color: #ec712a;
+}
+@media (max-width:960px){
+   
+    .logo{
+        display: block;
+        padding-left: 140px;
+        font-size: 2rem;
+        letter-spacing: 2px;
+    
+    }
+    .container-1 div{
+         position: relative;
+          right: 90px;
+          margin-right: 20px;
+         }
+         .box-1 h2{
+             font-size: 2rem;
+         }
+    .box-1 p{
+        font-size: 1rem;
+        
+    }
+    .container-2 div{
+        position: relative;
+         right: 90px;
+         margin-right: 20px;
+        }
+        .box-2 h2{
+            font-size: 2rem;
+        }
+   .box-2 p{
+       font-size: 1rem;
+       
+   }
+   .container-3 div{
+    position: relative;
+     right: 90px;
+     margin-right: 20px;
+    }
+    .box-3 h2{
+        font-size: 2rem;
+    }
+    .box-3 p{
+        font-size: 1rem;
+   
+}
+    .image{
+        position: relative;
+        right: 220px;
+        height: 300px;
+        min-width: 90px;
+        background-size: cover;
+
+    }
+    .formpage1{
+        padding:  40px 30px; 
+        background:  #fefefe; 
+        display:  flex; 
+        flex-direction:  column;
+        align-items:  flex-start; 
+        padding-bottom:  20px;
+        padding-right: 300px; 
+        width:  180px;
+        height: 940px;
+        border-radius: 5px;
+   
+}
+input {
+    font-size:  16px; 
+    padding:  20px 0px; 
+    height:  56px; 
+    border:  none; 
+    border-bottom:  solid 1px rgba(0,0,0,.1); 
+    background:  #fff; 
+    width:  300px; 
+    box-sizing:  border-box; 
+    transition:  all .3s linear; 
+    color:  #000; 
+    font-weight:  400;
+    -webkit-appearance:  none; 
+}
+.floating-label {
+    position:  relative; 
+    margin-bottom:  10px;
+    width:  100%; 
+  }
+}
